@@ -92,7 +92,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           {
             text: '原创',
-            items: [{ text: '心情杂货', link: '/pages/34d266/' }]
+            items: [
+              { text: '你好，旧时光', link: '/pages/34d266/' },
+              { text: 'テスト問題', link: '/pages/10b382/' }
+            ] //
           },
           {
             text: '转载',
@@ -106,9 +109,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           }
         ]
       },
-      { text: '关于', link: '/about/' },
+      { text: '关于我', link: '/about/' },
       {
-        text: '收藏',
+        text: '收藏夹',
         link: '/pages/beb6c0bd8a66cea6/'
         // items: [
         //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },

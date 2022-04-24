@@ -16,7 +16,7 @@ features: # 可选的
     details: 技术文档、教程、技巧、总结等文章
     link: /technology/
     imgUrl: /img/other.png
-  - title: 心情杂货
+  - title: 你好，旧时光
     details: 致我们终将逝去的青春
     link: /pages/34d266/
     imgUrl: /img/youth.png
