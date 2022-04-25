@@ -34,7 +34,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
             text: '原创',
-            items: [{ text: '《ES6》学习笔记', link: '/note/es6555/' }]
+            items: [{ text: 'ES6', link: '/note/es6555/' }]
           },
           {
             text: '转载',
@@ -57,7 +57,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           {
             text: '原创',
-            items: [{ text: '《css》学习笔记', link: '' }]
+            items: [
+              { text: 'html', link: '/pages/b3a9cc/' },
+              { text: 'Css', link: '/pages/f6bd5f/' }
+            ]
           },
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
@@ -87,6 +90,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ]
       },
       {
+        text: '写过的项目',
+        link: '/code/',
+        items: [
+          { text: '后台管理界面', link: '/pages/54efea/' },
+          { text: '小程序', link: '/pages/db5450/' },
+          { text: '静态页面练习', link: '/pages/925477/' }
+        ]
+      },
+      {
         text: '更多',
         link: '/more/',
         items: [
@@ -113,11 +125,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '收藏夹',
         link: '/pages/beb6c0bd8a66cea6/'
-        // items: [
-        //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-        //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        // ],
+      },
+      {
+        text: '星选集',
+        link: '/pages/812714/'
       }
       // {
       //   text: '索引',
