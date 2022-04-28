@@ -33,7 +33,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '原创',
+            text: '推荐',
             items: [{ text: 'ES6', link: '/note/es6555/' }]
           },
           {
@@ -56,7 +56,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/ui/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           {
-            text: '原创',
+            text: '推荐',
             items: [
               { text: 'html', link: '/pages/b3a9cc/' },
               { text: 'Css', link: '/pages/f6bd5f/' }
@@ -77,8 +77,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/technology/',
         items: [
           {
-            text: '原创',
-            items: [{ text: '《git》学习笔记', link: '' }]
+            text: '推荐',
+            items: [
+              { text: 'mock.js', link: '/pages/af0918/' },
+              { text: 'axios', link: '/pages/deee95/' }
+              // { text: '其他', link: '/pages/8c8805/' }
+            ]
           },
           {
             text: '转载',
@@ -115,6 +119,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: '苏', link: '/pages/036fde/' },
               { text: '样', link: '/pages/806765/' }
+              // { text: '夕', link: '' }
             ]
           }
         ]
@@ -122,11 +127,25 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '关于我', link: '/about/' },
       {
         text: '收藏夹',
-        link: '/pages/beb6c0bd8a66cea6/'
+        link: '/pages/633eff/'
       },
       {
         text: '星选集',
         link: '/pages/812714/'
+      },
+      {
+        text: '奇妙屋',
+        items: [
+          {
+            text: '推荐',
+            items: [
+              {
+                text: '奇妙屋',
+                link: '/pages/843932/'
+              }
+            ]
+          }
+        ]
       }
       // {
       //   text: '索引',
