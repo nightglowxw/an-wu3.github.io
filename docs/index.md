@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 heroText: 今天你学习了吗？
-tagline: 人生的本质是追寻自我的提升。包括思想、能力、意志等等。这些发展好了，一切随之而来。
+tagline: 人生的本质是追寻自我的提升。包括思想、能力、意志等等。这些发展好了，一切随之而来。 by 字节张一鸣
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量

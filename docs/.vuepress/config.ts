@@ -34,7 +34,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
             text: '推荐',
-            items: [{ text: 'ES6', link: '/note/es6555/' }]
+            items: [
+              { text: 'Js', link: '/pages/e5daed/' },
+              { text: 'ES6', link: '/note/es6555/' },
+              { text: 'Vue', link: '/pages/da548b/' }
+            ]
           },
           {
             text: '转载',
@@ -59,7 +63,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '推荐',
             items: [
               { text: 'html', link: '/pages/b3a9cc/' },
-              { text: 'Css', link: '/pages/f6bd5f/' }
+              { text: 'Css', link: '/pages/f6bd5f/' },
+              { text: 'scss', link: '/pages/563e40/' }
             ]
           },
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
@@ -99,7 +104,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           { text: '后台管理界面', link: '/pages/54efea/' },
           { text: '小程序', link: '/pages/db5450/' },
-          { text: '静态页面练习', link: '/pages/925477/' }
+          { text: '静态页面练习', link: '/pages/925477/' },
+          { text: 'Js练习', link: '/pages/9f1437/' }
         ]
       },
       {
@@ -127,7 +133,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: '关于我', link: '/about/' },
       {
         text: '收藏夹',
-        link: '/pages/633eff/'
+        link: '/pages/47cf96/'
       },
       {
         text: '星选集',
@@ -205,7 +211,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/img/youth.png',
+      avatar:
+        'https://cdn.jsdelivr.net/gh/clozz-lin/images@master/blog_index_private/youth.png',
       // 'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200103123203.jpg',
       //
       name: 'cl',
@@ -250,7 +257,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: 'https://cdn.jsdelivr.net/gh/clozz-lin/images@master/blog_index_private/favicon.ico'
+      }
+    ], //favicons，资源放在public文件夹
     [
       'meta',
       {
